@@ -220,7 +220,7 @@ canvas.oncontextmenu = (e) => {
     } else {
         move()
     }
-    //return false;     // cancel default menu
+    return false;     // cancel default menu
 }
 
 canvas.addEventListener('mousemove', (e) => {
