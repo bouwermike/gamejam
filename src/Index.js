@@ -210,7 +210,7 @@ fpsTick(60, () => {
 })
 
 //user input
-window.oncontextmenu = (e) => {
+canvas.oncontextmenu = (e) => {
     let pos = getCursorPosition(canvas, e)
     targetX = pos.cursor.x - camera.x
     targetY = pos.cursor.y - camera.y
