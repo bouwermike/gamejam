@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="mainContainer" id="mainContainer">
+        <div id="console">
+            <div class="output" id="output">
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br><hr>
+            <div id="output2">
+
+            </div>
+            <div class="input" id="input">
+                    <h4>Warp Controls</h4>
+                    <input type="text" id="warpX">X
+                    <input type="text" id="warpY">Y
+                    <button id="returnButton"> Warp </button>
+
+            </div>
+        </div>
+        <div class="gameSpace">
+            <canvas class="gameCanvas" id="gameCanvas" style="z-index: 2; position: fixed; top:0 ;left: 25%"></canvas>
+            <canvas class="gameCanvas" id="gameCanvas1" style="z-index: 1; position: fixed; top:0 ;left: 25%"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+/* Font set up*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto+Mono:100');
+
+body, html {
+    font-family: monospace;
+    color: black;
+    background-color: #ffff;
+}
+
+/* Structure */
+.mainContainer {
+    margin: 0 auto;
+
+}
+
+.gameCanvas {
+    border: 1px solid #000000;
+}
+
+#console {
+    width: 200px; 
+    height: 800px;
+    margin: 10px; 
+    padding: 10px; 
+    border: black; 
+    border-width: 2px; 
+    border-style: dashed;
+    position: relative;
+}
+
+#console .output {
+    width: 190px;
+    padding: 10px;
+    height: 600px;
+    margin: 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    scroll-behavior: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+}
+
+#console .input {
+    width: 190px;
+    height: 600px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#inputField {
+    height: 40px;
+    width: 175px; 
+    background: rgba(255,255,255,0.5);
+}
+
+#returnButton {
+    margin: 5px;
+    height: 40px;
+    width: 80px; 
+    background: rgba(255,255,255,0.5);
+}
+
