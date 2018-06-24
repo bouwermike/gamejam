@@ -297,7 +297,7 @@ Object(_AnimateFunctions__WEBPACK_IMPORTED_MODULE_1__["fpsTick"])(60, () => {
 })
 
 //user input
-window.oncontextmenu = (e) => {
+canvas.oncontextmenu = (e) => {
     let pos = Object(_ControlFunctions__WEBPACK_IMPORTED_MODULE_2__["getCursorPosition"])(canvas, e)
     targetX = pos.cursor.x - camera.x
     targetY = pos.cursor.y - camera.y
@@ -307,7 +307,7 @@ window.oncontextmenu = (e) => {
     } else {
         move()
     }
-    //return false;     // cancel default menu
+    return false;     // cancel default menu
 }
 
 canvas.addEventListener('mousemove', (e) => {
