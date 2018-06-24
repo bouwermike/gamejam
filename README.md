@@ -1,3 +1,3 @@
-# warpShift
+# warpShift2
 
-A simple little physics game built with plain JS.
+An exploration into how to do stuff with canvas.
